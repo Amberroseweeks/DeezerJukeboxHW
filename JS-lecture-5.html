@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Example Title</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="JS-lecture-5.css">
+	<link rel="icon" type="image/x-icon" href=""/>
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header></header>
+	<main>
+    
+    
+        <center>
+    <div id="music-player-container">
+        <div id="title"> Music Player<i class="fa fa-music"></i></div>
+
+        <div id="music-player">
+            <div id="cover-image">
+            <div id="info-button"> <i class="fa fa-info-circle"></i>
+            </div>
+            </div>
+        <div id="controls">
+            <div id="artist-info">
+                <div id="artist-portrait">
+                </div>
+                <div id="artist-description">
+                    <div id ="artist-info-text">
+                    <div class="artist-name"> Artist Name
+                    </div>
+                    <div class="song-name"> Song Name 
+                    </div>
+                    </div>
+                    <div id="rating-section">
+                    <div class="rating-number"> 5.0 
+                    </div>
+                    <div class="rating-description"> rating
+                    </div>
+                    </div>
+                        <div id="control-bar">
+                        <div class="shuffle-songs">
+                        <i class="fa fa-random"></i></div>
+                        <div class="heart-like">
+                        <i class="fa fa-heart"></i></div>
+                        </div>
+
+                </div>
+            </div>
+    <div id="play-bar-content">
+            
+            <div id="play-bar">
+                
+            </div>
+                        <div id="display-play-bar-time">
+            <div class="start-time">00:00</div>
+            <div class="end-time">00:00</div>
+            </div>
+    </div>
+                <center>
+                
+                <div id="play-control-bar">
+                
+                <div id="pre-song">
+                    <i class="fa fa-backward"></i>
+                </div>
+                <div id="play-song">
+                    <i class="fa fa-play" onclick="playSong()"></i>
+                </div>
+                <div id="pause-song">
+                    <i class="fa fa-pause"></i>
+                </div>
+                <div id= "next-song">
+                    <i class="fa fa-forward"></i>
+                </div>
+                </div>
+        <div id="song-search">
+    <input type="text" name="" id="input-song" style="margin-bottom: 20px">
+    <input type="submit" name="" id="submit-song" style="margin-bottom: 20px">
+        </div>
+            </center>
+            </div>
+            
+
+        </div>
+        <div id="credit">
+        <div id="footer">
+        Music provided by Deezer API</div>
+        </div>
+    
+    </div>
+    
+    <p id="demo" onclick="myFunction()">Click me to change my HTML content (innerHTML).</p>
+            
+            
+    </center>
+    
+    </main>
+	<footer></footer>
+	<script type="text/javascript" src="JS-lecture-5.js"></script>
+    <script type="text/javascript" src='config.js'></script>
+</body>
+
+</html>

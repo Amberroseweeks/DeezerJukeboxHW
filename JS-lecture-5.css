@@ -1,0 +1,266 @@
+body{
+    background-color: #CA478E;
+}
+
+#title{
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+color: #DCA2C1;
+}
+
+#music-player-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#input {
+background: #FFFFFF;
+border: 1px solid #ECA7CC;
+box-sizing: border-box;
+border-radius: 5px;
+width: 159px;
+height: 31px;
+}
+
+#submit{
+background: #C61052;
+border-radius: 5px;
+width: 76px;
+height: 29px;
+border: none;
+color: #E5E5E5;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+}
+
+
+#music-player{
+    
+}
+
+#cover-image{
+    width: 300px;
+height: 208px;
+
+background: #F0EFEF;
+border-radius: 5px 5px 0px 0px;
+display: flex;
+flex-direction: row;
+align-content: flex-end;
+}
+
+#info-button{
+    color: #7A7979;
+font-size: 22px;
+    margin: 10px;
+    float: right;
+    margin-left: 270px;
+}
+
+#play-bar-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#display-play-bar-time {
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+.start-time {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+
+color: #7A7979;
+}
+
+.end-time {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+margin-top: 0px;
+
+color: #7A7979;
+margin-left: 160px;
+}
+
+#play-bar{
+width: 210px;
+height: 9px;
+    margin-left: 45px;
+    margin-bottom: 0px;
+
+
+background: #E3E0E2;
+border-radius: 5px;
+}
+
+#controls{
+display: flex;
+flex-direction: column;
+    align-content: center;
+width: 300px;
+height: 247px;
+background: #FFFFFF;
+border-radius: 0px 0px 5px 5px;
+}
+
+#artist-portrait {
+    
+width: 43px;
+height: 43px;
+    border-radius: 30px;
+    margin: 15px;
+
+background: #C4C4C4;
+}
+
+#artist-info-text {
+        display: flex;
+    flex-direction: column;
+}
+#artist-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#artist-description {
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+
+.artist-name {
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+    margin-top: 20px;
+
+color: #000000;
+}
+
+.song-name {
+    font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #000000;
+}
+
+#control-bar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#rating-section {
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-description {
+    font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #000000;
+}
+
+.rating-number {
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+
+
+#play-control-bar {
+width: 210px;
+height: 31px;
+padding-left: 50px;
+background: #FBD5E9;
+border: 1px solid #ECA7CC;
+box-sizing: border-box;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+    
+}
+
+.shuffle-songs {
+    color: #E3E0E2;
+    margin: 5px;
+}
+
+.heart-like {
+    color: #C61052;
+    margin: 5px;
+}
+#pre-song{
+    color: #C61052;
+    margin: 5px;
+}
+
+#play-song{
+    color: #C61052;
+    margin: 5px;
+}
+
+#next-song{
+    color: #C61052;
+    margin: 5px;
+}
+
+#pause-song {
+    color: #C61052;
+    margin: 5px;
+}
+
+#footer {
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+
+color: #DCA2C1;
+    margin: 10px;
+    
+}
+
+
+#song-search{
+    margin-top:20px;
+}
