@@ -128,7 +128,15 @@ height: 43px;
     border-radius: 30px;
     margin: 15px;
 
-background: #C4C4C4;
+}
+
+.artist-portrait {
+    
+width: 43px;
+height: 43px;
+    border-radius: 30px;
+    margin: 15px;
+
 }
 
 #artist-info-text {
