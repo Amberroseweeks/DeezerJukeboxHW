@@ -1,5 +1,6 @@
 body{
-    background-color: #CA478E;
+/*    background-color: #FAEFF5;*/
+     background-color: #f6f6f6;
 }
 
 #title{
@@ -8,7 +9,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 33px;
-color: #DCA2C1;
+color: #CA478E;
 }
 
 #music-player-container{
@@ -41,6 +42,11 @@ line-height: 16px;
 text-align: center;
 }
 
+#submit-song{
+    cursor: pointer;
+    
+}
+
 
 #music-player{
     
@@ -50,20 +56,47 @@ text-align: center;
     width: 300px;
 height: 208px;
 
-background: #F0EFEF;
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 border-radius: 5px 5px 0px 0px;
 display: flex;
 flex-direction: row;
 align-content: flex-end;
+    
+background-size: cover;
+
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/*
 #info-button{
+    height: auto;
+    cursor: pointer;
     color: #7A7979;
 font-size: 22px;
     margin: 10px;
-    float: right;
+    margin-bottom: none;
+
     margin-left: 270px;
 }
+
+#info-button:hover {
+
+    cursor: pointer;
+    color: #000000;
+}
+*/
 
 #play-bar-content {
     display: flex;
@@ -116,7 +149,7 @@ display: flex;
 flex-direction: column;
     align-content: center;
 width: 300px;
-height: 247px;
+height: 200px;
 background: #FFFFFF;
 border-radius: 0px 0px 5px 5px;
 }
@@ -178,10 +211,21 @@ color: #000000;
 }
 
 #control-bar{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
     margin-left: 15px;
+    color: !important!#f2f2f2;
+}
+
+#control-bar: hover{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #000000;
 }
 
 #rating-section {
@@ -231,25 +275,42 @@ flex-direction: row;
 }
 
 .heart-like {
+    cursor: pointer;
+    color: #f2f2f2;
+    margin: 5px;
+}
+
+.heart-like:hover {
+    cursor: pointer;
     color: #C61052;
     margin: 5px;
 }
+
 #pre-song{
     color: #C61052;
     margin: 5px;
 }
 
 #play-song{
+    cursor: pointer;
     color: #C61052;
     margin: 5px;
 }
 
 #next-song{
+    cursor: pointer;
+    color: #C61052;
+    margin: 5px;
+}
+
+#shuffle-song{
+    cursor: pointer;
     color: #C61052;
     margin: 5px;
 }
 
 #pause-song {
+    cursor: pointer;
     color: #C61052;
     margin: 5px;
 }
@@ -263,7 +324,7 @@ font-size: 11px;
 line-height: 15px;
 text-align: center;
 
-color: #DCA2C1;
+color: #CA478E;
     margin: 10px;
     
 }
@@ -272,3 +333,4 @@ color: #DCA2C1;
 #song-search{
     margin-top:20px;
 }
+

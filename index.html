@@ -11,6 +11,7 @@
 	<link rel="icon" type="image/x-icon" href=""/>
         	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
@@ -19,13 +20,29 @@
     
     
         <center>
+<!--
+              <div class="waveWrapperInner bgTop">
+    <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+  </div>
+-->
+  <div class="waveWrapperInner bgMiddle">
+    <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+  </div>
+<!--
+  <div class="waveWrapperInner bgBottom">
+    <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+  </div>
+-->
+            
+            
     <div id="music-player-container">
-        <div id="title"> Music Player<i class="fa fa-music"></i></div>
+<!--        <div id="title"> Music Player<i class="fa fa-music"></i></div>-->
 
         <div id="music-player">
             <div id="cover-image">
-            <div id="info-button"> <i class="fa fa-info-circle"></i>
-            </div>
+ 
+
+
             </div>
         <div id="controls">
             <div id="artist-info">
@@ -45,14 +62,17 @@
                     </div>
                     </div>
                         <div id="control-bar">
+<!--
                         <div class="shuffle-songs" id="shuffle-songs">
                         <i class="fa fa-random"></i></div>
+-->
                         <div class="heart-like">
                         <i class="fa fa-heart"></i></div>
                         </div>
 
                 </div>
             </div>
+<!--
     <div id="play-bar-content">
             
             <div id="play-bar">
@@ -63,6 +83,7 @@
             <div class="end-time">00:00</div>
             </div>
     </div>
+-->
                 <center>
                 
                 <div id="play-control-bar">
@@ -79,14 +100,15 @@
                 <div id= "next-song">
                     <i class="fa fa-forward"></i>
                 </div>
+                <div id= "shuffle-song">
+                    <i class="fa fa-random"></i>
+                </div>
                 </div>
         <div id="song-search">
     <input type="text" name="" id="input-song" style="margin-bottom: 20px">
-    <input type="submit" name="" id="submit-song" style="margin-bottom: 20px">
-<!--
-    <input type="text" name="" id="input" style="margin-bottom: 20px">
-    <input type="submit" name="" id="submit-two" style="margin-bottom: 20px">
--->
+
+            <i class="fa fa-search" id="submit-song"></i>
+
         </div>
             </center>
             </div>
@@ -94,13 +116,18 @@
 
         </div>
         <div id="credit">
-        <div id="footer">
-        Music provided by Deezer API</div>
+            <div id="footer" class="gamma lato thin uppercase ls-small"> Created by Amber Rose Weeks | 
+            <a href="https://amberroseweeks.com/">Amberrweeks.com</a>
+                <br>
+                <span class="contact-icons">
+                <a href="https://github.com/Amberroseweeks" target="_blank"><i class="fab fa-github"></i></a> <a href="https://github.com/Amberroseweeks" target="_blank"><i class="fab fa-dribbble" style="margin-left:15px"></i></a></span>
+            <br>
+            Music provided by DEEZER API</div>
         </div>
     
     </div>
             
-            
+   
     </center>
     
     </main>
